@@ -1,0 +1,2 @@
+ls--help | cut -d '.' -f 3 > mostafafile.txt
+grep -v '^$' mostafafile.txt > newfile.txt
